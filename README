@@ -1,0 +1,16 @@
+Contagd - CONvert and TAGging Daemon 
+
+ist ein Daemon der bestimmte Verzeichnisse überwacht und informiert wird sobald ein MP3-File dort abegelegt wurde. 
+Anschließend wird das MP3 in ein OGG konvertiert und entsprechend getaggt. 
+
+Abhängigkeiten
+
+    pyinotify (das ist der inotify-Aufsatz)
+    python-mutagen (das ist für das tagging tool)
+    sox
+    sox MP3 support 
+
+
+Unter Debian:
+
+apt-get install python-pyinotify python-mutagen sox libsox-fmt-mp3

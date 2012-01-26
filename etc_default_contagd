@@ -1,0 +1,4 @@
+WATCHDIR=/var/www/archiv.radiotux.de
+USER=www-data
+GROUP=www-data
+LOGFILE=/var/log/contagd.log
